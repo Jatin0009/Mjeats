@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* nav#navbar {
+  border: 10px solid yellow;
+} */
+
+ul.nav-menu.list-unstyled.col-12 {
+  position: relative;
+  top: -43px;
+}
+
+
+
+.aa{
+    color: pink;
+}
+.mm{
+  margin-top: 200px;
+}
+  .section {
+     min-height: 10px !important;
+}
+
+
+a:hover{
+    color: #f6f6f6
+}
+.header-shadow{
+    background-image: url('../pics/origin.png');
+    width:100%;
+    height:auto;
+    background-repeat:no-repeat;
+}
+.header-shadow1{
+    background-image: url('../pics/Untitled-1\ copy.png');
+    width:1060px;
+    height:auto;
+    background-repeat:no-repeat;
+    margin-top: 76px;
+}
+.header-shadow2{
+    background-image: url('../pics/dsc_1281.jpg');
+    width:100%;
+    height:auto;
+    background-repeat:no-repeat;
+    margin-top: 76px;
+}
+.header-shadow3{
+  background-image: url('../pics/chhhhhh.png');
+  width:100%;
+  height:auto;
+  background-repeat:no-repeat;
+}
+.header-shadow4{
+  background-image: url('../pics/pizza-fiva.jpg');
+  width:1060px;
+  height:auto;
+  background-repeat:no-repeat;
+  margin-top: 76px;
+}
+.header-shadow5{
+  background-image: url('../pics/mmm.jpg');
+  width:100%;
+  height:auto;
+  background-repeat:no-repeat;
+}
+p.pp {
+  color: white;
+}
+.cc{
+    color: pink;
+    letter-spacing: 2px;
+
+}
+.ff{
+    color:pink;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.hehe{
+    background-color: black;
+    color: white;
+    margin-top: 76px;
+}
+span.font-weight-bold {
+    position: relative;
+    top: 6px;
+}
+
+
+ ul.navbar-nav .nav-item .nav-link:hover {
+
+    color: pink !important;
+}
+
+.bg-dark {
+    background-color: black!important;
+    color:white;
+    
+}
+.hello{
+    letter-spacing: 3px;
+}
+.foot{
+    background-color: black;
+
+    color:white;
+}
+.mj{
+    
+    padding-top: 10px;
+    color:white;
+}
+.jm{
+    text-align: center;
+    color: pink;
+}
+
+input#email {
+    margin-left: 73px;
+}
+.btn-primary{
+    margin-top: 25px;
+    margin-left: 18px;
+}
+/* .container {
+    max-width: 1400px;
+    
+} */
+
+/* .col-12 {
+    max-width: 100%;
+    height: auto;
+} */
+
+.h3, h3 {
+    font-size: 1.2rem;
+}
+
+
+.bc{
+    background-color:#f6f6f6
+}
+
+
+
+.parallax {
+    
+    background-image:url('../pics/4244814-food.jpg');
+  
+
+    min-height: 500px; 
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  img.img-fluid.jk {
+    height: 612px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 300px)  {
+
+   
+
+    ul.navbar-nav .nav-item .nav-link{
+
+    text-align:center;
+        
+    }
+
+    ul.navbar-nav .nav-item .nav-link:hover{
+
+        color:red !important;
+        border:none !important;
+              }
+
+            }
+
+
+
+
+
+            /* drinks css */
+
+
+            /* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  p {
+    color: #565656;
+    line-height: 1.8;
+  }
+  .section {
+    min-height: 800px;
+  }
+  .container {
+    width: 1170px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .content-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    min-height: 800px;
+  }
+  .content {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+  }
+  /* End Global Styles */
+  
+  /* Start Nav Styles */
+  
+ 
+  .list-inline-item:not(:last-child) {
+  margin-right: 0rem !important;
+   }
+
+  .qq{
+    color:pink;
+  }
+  
+  /* End Nav Styles */
+  
+  /* Start Home Styles */
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index:2;
+}
+  /* End Home Styles */
+  
+  /* Start About Styles */
+  #about .container {
+    padding: 100px 0;
+  }
+  #about p {
+    width: 60%;
+    margin: 10px auto;
+  }
+  #about img {
+    margin-top: 40px;
+  }
+  /* End About Styles */
+  
+  /* Start Services Styles */
+  #services {
+    background-color: #eee;
+  }
+  #services .services {
+    margin: 40px auto;
+  }
+  #services .services .service {
+    width: 50%;
+    padding: 1%;
+  }
+  
+  #services .text-right {
+    float: right;
+  }
+  #services .text-left {
+    float: left;
+  }
+  /* End Services Styles */
+  
+  /* Start Testimonials Styles */
+  #test,
+  #test .content-wrapper {
+    min-height: 400px;
+  }
+  /* End Testimonials Styles */
+  
+  /* Start Contact Styles */
+  #contact {
+    min-height: 600px;
+    background-color: #222;
+    color: #fff;
+  }
+  #contact .content-wrapper {
+    min-height: 600px;
+  }
+  #contact p {
+    color: #eee
+  }
+  #contact .mail {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  /* End Contact Styles */
+  
+  /* Start Footer Styles */
+  footer {
+    background-color: #000;
+    padding: 40px 0;
+  }
+  footer p {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-weight: 700;
+  }
+  /* End Footer Styles */
+  
+  
+  
+  /**
+  *
+  *  I used Normalize.css to reset elements.
+  *  I used Autoprifixer to make sure that I'm using the necessary vendor prefixes.
+  *
+  **/
